@@ -1,0 +1,55 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="S6_+OVok^O[qWJSc%i?p">buttonC</variable></variables><block type="pxt-on-start" id="|j:0z:9S/#I;B*[!KIJ7" x="78" y="-185"></block><block type="device_forever" id="+Dng=AE3Rqt)vvZ?g~k?" x="252" y="-187"><statement name="HANDLER"><block type="variables_set" id="I^=(`x7g[lN:12]cAnng"><field name="VAR" id="S6_+OVok^O[qWJSc%i?p">buttonC</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id="=l+z?D7S.@zk|x(L]V,~"><field name="name">DigitalPin.P0</field></block></value><next><block type="device_set_digital_pin" id="%3HpA2n*os0?TG8*vk.="><field name="name">DigitalPin.P1</field><value name="value"><shadow type="math_number_minmax"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">1</field></shadow><block type="variables_get" id="F+;jnM`!@`f.^Rhmg||;"><field name="VAR" id="S6_+OVok^O[qWJSc%i?p">buttonC</field></block></value><next><block type="device_pause" id="*|i2W?WaiJp$7wWG|xA#"><value name="pause"><shadow type="timePicker" id="}%Sp$x]R|Z;61B|[YI:;"><field name="ms">500</field></shadow></value><next><block type="device_set_digital_pin" id="}1DEUDd?,;B)DlmlFhRP"><field name="name">DigitalPin.P2</field><value name="value"><shadow type="math_number_minmax"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">1</field></shadow><block type="variables_get" id="Q6qZEh*4_}9nf4cMu_+b"><field name="VAR" id="S6_+OVok^O[qWJSc%i?p">buttonC</field></block></value><next><block type="device_pause" id="aMO#*b2Q.GT[@^X5:t.("><value name="pause"><shadow type="timePicker" id="#)3hKw(}k1`WTPIMNV-)"><field name="ms">500</field></shadow></value><next><block type="device_set_digital_pin" id="pPY(Vo#-S0W`.9_pj67$"><field name="name">DigitalPin.P5</field><value name="value"><shadow type="math_number_minmax"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">1</field></shadow><block type="variables_get" id="p^@ut0`HJVLO8@E[zxU."><field name="VAR" id="S6_+OVok^O[qWJSc%i?p">buttonC</field></block></value><next><block type="device_pause" id="sv/kQzl?z43AY:_o]McK"><value name="pause"><shadow type="timePicker" id="3E.$%Pi/sp:}fyGo]^b."><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="Q$D7XItqA(E7=cBk~YmN"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="!3f4+PSpU,W324ZDDmhX"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . # 
+        . . . # # 
+        . . . . #
+        `</field><next><block type="device_show_leds" id="l9#^E^j!KeodV,*m;.[f"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . # # 
+        . . # # # 
+        . . . # .
+        `</field><next><block type="device_show_leds" id="Rs!lsiorpL}$YasGM(^l"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # # # 
+        . # # # # 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="$QP]zYdxz@@:WZ:wisuI"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        # # # # # 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="?^;T;`hK9)Z3]H}rfIVR"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # . . 
+        # # # # . 
+        # . # . .
+        `</field><next><block type="device_show_leds" id="}$p^y5o83KiCQoESEt8w"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # . . . 
+        # # # . . 
+        . # . . .
+        `</field><next><block type="device_show_leds" id="${zox.mx4arE%){(PDF@"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . . . . 
+        # # . . . 
+        # . . . .
+        `</field><next><block type="device_show_leds" id="QDG13)bZNz@z78*A[Pc^"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . . 
+        . . . . .
+        `</field><next><block type="device_clear_display" id="TsaxU5x)0.1}aA0^R_r#"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="N.g5XrcODkUrl+~~p|~[" x="701" y="-190"><field name="NAME">Button.A</field></block><block type="device_set_digital_pin" id="({O-qmSU^DLL1x6_%wc@" disabled="true" x="945" y="-189"><field name="name">DigitalPin.P1</field><value name="value"><shadow type="math_number_minmax" id="WO%EAe}IWlm(n~OFc~:+" disabled="true"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">1</field></shadow></value><next><block type="device_set_digital_pin" id="wv@8K`@|Xs4[IWS_q^_?" disabled="true"><field name="name">DigitalPin.P2</field><value name="value"><shadow type="math_number_minmax" id="/OTPPidl7+}b1D|uY=jq" disabled="true"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">1</field></shadow></value><next><block type="device_set_digital_pin" id="2u(,0YAE.LNGE)Ti99+C" disabled="true"><field name="name">DigitalPin.P5</field><value name="value"><shadow type="math_number_minmax" id="3:qFors7KDXW#YQxJCbc" disabled="true"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">1</field></shadow></value></block></next></block></next></block><block type="variables_get" id="ZMKt(:+_TP#[pbTYrNIA" disabled="true" x="117" y="-54"><field name="VAR" id="S6_+OVok^O[qWJSc%i?p">buttonC</field></block><block type="device_get_digital_pin" id="-Y|pUb,R16onS!Jw7NG!" disabled="true" x="0" y="0"><field name="name">DigitalPin.P0</field></block><block type="device_pause" id="V^6:~-=G8l*F3Qj2rc6J" disabled="true" x="942" y="135"><value name="pause"><shadow type="timePicker" id="MgIlDrC$e(o5K9P3F7x?" disabled="true"><field name="ms">2000</field></shadow></value><next><block type="device_set_digital_pin" id="[:zi9s_e,8ODZQs=c~I^" disabled="true"><field name="name">DigitalPin.P1</field><value name="value"><shadow type="math_number_minmax" id="_g8+bTUEgFPd.lR^Ut-e" disabled="true"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="device_set_digital_pin" id="XnJ.$J{x|l,1|5*hXc6*" disabled="true"><field name="name">DigitalPin.P2</field><value name="value"><shadow type="math_number_minmax" id="O0Wf8jOC$Q4HDonxe]eh" disabled="true"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="device_set_digital_pin" id="bv8]I8l/!]Gw:`}3f833" disabled="true"><field name="name">DigitalPin.P5</field><value name="value"><shadow type="math_number_minmax" id="?.o#3@)7Mylt3u0JFFN_" disabled="true"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></next></block></next></block></next></block><block type="device_set_digital_pin" id="a]%U5,OSE8ZO]9%Q{Q[L" disabled="true" x="498" y="220"><field name="name">DigitalPin.P1</field><value name="value"><shadow type="math_number_minmax" id="0Y5nK=+9VA.B$B:~_bGk" disabled="true"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">1</field></shadow></value><next><block type="device_show_number" id="GEW7j|.W}8M/pN7tCfnB" disabled="true"><value name="number"><shadow type="math_number" id="GfMV`gx.],Jkygn_%~9E" disabled="true"><field name="NUM">0</field></shadow></value></block></next></block></xml>
